@@ -68,3 +68,6 @@ label:after {
   input:checked + label + .background {
     background: #242424;
   }
+  input:checked + label + p {
+    color: #fff;
+  }
