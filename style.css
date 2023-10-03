@@ -45,7 +45,7 @@ label:after {
     transition: 0.3s
   }
   label:active:after{
-        width: : 260px;
+        width: 260px;
   }
   .background {
     width:100vw;
