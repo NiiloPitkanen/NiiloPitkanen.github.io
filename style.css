@@ -1,5 +1,5 @@
 h1 {
-    color:blueviolet;
+    color: blueviolet;
     text-align: center;
     font-size: 300%;
 }
@@ -20,17 +20,16 @@ label {
 }
 label:after {
     content: "";
-    width:180px;
+    width: 180px;
     height: 180px;
     position: absolute;
-    top:10px;
-    left:10px;
+    top: 10px;
+    left: 10px;
     background: linear-gradient(180deg,#ffcc89,#d8860b);
     border-radius: 180px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
     transition: 0.3s;
   }
-  
   input {
     width: 0;
     height: 0;
@@ -40,18 +39,18 @@ label:after {
     background: #242424;
   }
   input:checked + label:after {
-    left:490px;
+    left: 490px;
     transform: translateX(-100%);
     background: linear-gradient(180deg,#777,#3a3a3a);
   }
   label, label:after {
-    transition: 0.3s
+    transition: 0.3s;
   }
   label:active:after{
         width: 260px;
   }
   .background {
-    width:100vw;
+    width: 100vw;
     height: 100vh;
     background: #fff;
     z-index: -1;
@@ -59,6 +58,5 @@ label:after {
     transition: 0.3s;
   }
   input:checked + label + .background {
-    background:#242424;
+    background: #242424;
   }
-  
