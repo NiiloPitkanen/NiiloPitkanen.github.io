@@ -67,5 +67,4 @@ label:after {
   }
   input:checked + label + .background {
     background: #242424;
-    color: #fff;
   }
