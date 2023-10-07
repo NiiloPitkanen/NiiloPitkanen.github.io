@@ -21,7 +21,7 @@ p {text-align: center;
 label {
     width: 125px;
     height: 50px;
-    position: right;
+    position: relative;
     display: block;
     background: #ebebeb;
     border-radius: 50px;
