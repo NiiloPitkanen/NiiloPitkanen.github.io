@@ -2,13 +2,16 @@ div {
     background-color: lightblue;
 }
 .vinkki {
-    color: lightgrey; text-align: right;
+    color: lightgrey; 
+    text-align: right;
 }
 .lihis {
-    font-weight: bold; font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 img {
-    width: 250px; max-width: 100%;
+    width: 250px; 
+    max-width: 100%;
 }
 .siisti {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -17,25 +20,29 @@ body {
     max-width: 700px; margin: auto;
 }
 #loppu {
-    background-color: #2a6db0; border: 5px #2c93fb;
+    background-color: #2a6db0; 
+    border: 5px #2c93fb;
 }
 html {
     background-color: #739ac1;
 }
 h1 {
-    text-align: center; font-size: 350%;
+    text-align: center; 
+    font-size: 350%;
 }
 h4 {
     font-size: 150%;
 }
 h3 {
-    text-align: center; font-size: 200%;
+    text-align: center; 
+    font-size: 200%;
 }
 .mt03 {
     float: right;
 }
 h2 {
-    text-align: center; font-size: 200%; font-family: 'Times New Roman', Times, serif;
+    text-align: center; font-size: 200%; 
+    font-family: 'Times New Roman', Times, serif;
 }
 p {
     font-family: Arial, sans-serif;
@@ -44,5 +51,6 @@ p {
     text-align: center;
 }
 aside {
-    background-color: lightblue; float: right;
+    background-color: lightblue; 
+    float: right;
 }
