@@ -68,7 +68,7 @@ label:after {
     position: absolute;
     transition: 0.3s;
   }
-  input:checked + label + .background {
+  input:checked + label + .background + .nimi {
     background: #242424;
     color: #fff;
   }
