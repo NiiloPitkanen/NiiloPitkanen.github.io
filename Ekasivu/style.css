@@ -44,5 +44,5 @@ p {
     text-align: center;
 }
 aside {
-    background-color: lightblue;
+    background-color: lightblue; float: right;
 }
