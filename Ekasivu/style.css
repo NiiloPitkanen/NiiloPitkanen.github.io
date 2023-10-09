@@ -43,3 +43,6 @@ p {
 .otsikko {
     text-align: center;
 }
+aside {
+    background-color: lightblue;
+}
