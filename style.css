@@ -15,7 +15,11 @@ h1 {
     font-size: 300%;
 }
 
-p {text-align: center; outline-color: #ebebeb;
+p {
+    text-align: center;
+}
+.nimi {
+    outline-color: #fff;
 }
 
 label {
