@@ -239,6 +239,7 @@ header {
 
 .primary-color figure {
     margin: 0;
+    position: relative;
 }
 
 .default {
@@ -255,7 +256,6 @@ header {
 
 .primary-color li {
     margin: 15px;
-    position: relative;
 }
 
 .primary-color h3 {
