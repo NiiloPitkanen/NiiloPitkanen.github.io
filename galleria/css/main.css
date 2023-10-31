@@ -233,9 +233,8 @@ header {
 }
 
 .primary-color {
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
+    
+    width: 80%;
 }
 
 .primary-color figure {
@@ -243,10 +242,9 @@ header {
 }
 
 .default {
-    display: flex;
-    flex-wrap: wrap;
+
     flex-direction: column;
-    width: 25%;
+    width: 20%;
 }
 
 .primary-color ul {
@@ -256,7 +254,7 @@ header {
 }
 
 .primary-color li {
-    margin: 10px;
+    margin: 15px;
     position: relative;
 }
 
