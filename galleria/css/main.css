@@ -239,7 +239,7 @@ header {
 }
 
 .primary-color figure {
-    position: relative;
+    margin: 0;
 }
 
 .default {
@@ -255,7 +255,10 @@ header {
     list-style-type: none;
 }
 
-
+.primary-color li {
+    margin: 10px;
+    position: relative;
+}
 
 .primary-color h3 {
     position: absolute;
