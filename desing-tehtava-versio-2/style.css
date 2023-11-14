@@ -46,8 +46,8 @@ header {
 main {
 	background-color: #96E6B3;
 	border-radius: 5px;
-	margin: 10px 0px;
-	padding: 20px;
+	margin: 10px 20px 10px;
+	padding: 35px 10px;
 }
 
 body { 
@@ -62,7 +62,7 @@ body {
 	ja reunoille jää tyhjää. Voit muuttaa tätä miten haluat.*/
 	max-width: 900px;
 	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
-	
+}
 
 /*--------- HEADER ---------------------*/
 
@@ -114,10 +114,8 @@ header h1 {
 /*Link in menu item*/
 #main-menu a { 
 
-	text-decoration: none; /*poistaa linkin alleviivauksen*/
-
-	/*Voi muokata täällä myös background-, color- 
-	font-size- ja font-family-arvoja.*/
+	text-decoration: none;
+	font-size: 140%
 
 }
 
@@ -133,26 +131,7 @@ header h1 {
 /*------- ARTICLE BUTTONS -------------------*/
 /*Button in end of each article*/
 .button { 
-	/*saatat haluta tehdä napista aika samanlaisen
-	kuin valikkolinkit, mutta toisenlainenkin 
-	voi olla ihan tyylikäs*/
-
-	/*Voi muokata täällä myös background-, color- 
-	font-size- ja font-family-arvoja.*/
 	
-	/*Tämä on a-elementti, ja se on oletuksena 
-		display: inline; 
-	Siksi sen kokoa tai paikkaa ym. ei voi muuttaa.
-	Jotta nappia on helpompi käsitellä, voi muuttaa sen 
-		display: block;
-		
-	Ymmärtääksesi paremmin mitä on block ja inline ym., 
-	katso tämä video: https://www.youtube.com/watch?v=9T8uxp5hQ60	
-	*/
-
-	/*Tällä koodilla saat fancyn varjon :) 
-		box-shadow: 0px 2px 10px rgba(0,0,0,50%); 
-	*/
 	display: block;
 	padding: 5px 10px;
 	border-radius: 5px;
@@ -185,24 +164,16 @@ main {
 	ja sitten artikkeleihin (ks. alla) esim. ,
 	jolloin artikkelit asettuvat vierekkäin.*/
 	
-	display: flex; flex-wrap:wrap; justify-content: center;
+	display: flex; 
+	flex-wrap:wrap; 
+	justify-content: center;
 }
 
 /*Frame of each "article"*/
 article {
-	max-width: 300px; /*Jos main on flexbox, 
-	tämä tekee sen, että "artikkelit" mahtuvat vierekkäin.*/
-	
-	/*Yksittäisen artikkelin tausta:
-	Saatat haluta  muokata täällä background-, color- 
-	sekä font-size- ja font-family-arvoja.*/
-
-	/*Tärkeää: Laita tässä marginaalit ja paddingit paremmin, 
-	niin näyttää tyylikkäämmältä! Teksti, kuva ym. ei saa olla 
-	reunaan asti, vaan reunassa pitää olla marginaali (teknisesti
-	margin tai padding).*/
-	margin: 30px;
-	padding: 10px;
+	max-width: 300px;
+	margin: 20px 20px 20px;
+	padding: 5px 20px 10px;
 	background-color: #B1F1BF;
 	border-radius: 5px;
 }
