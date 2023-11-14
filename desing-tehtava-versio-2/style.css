@@ -108,7 +108,7 @@ header h1 {
 	niin näyttää tyylikkäämmältä */
 
 	/*Voi muokata täällä myös background-, color-arvoja.*/
-  
+  padding: 5px 5px;
 }
 
 /*Link in menu item*/
