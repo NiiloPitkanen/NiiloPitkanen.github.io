@@ -37,13 +37,17 @@ li {
 }
 
 header {
-	background-color: #B1F1BF;
+	background-color: #96E6B3;
 	border-radius: 5px;
+	margin: 50px 20px;
+	padding: 2px;
 }
 
 main {
 	background-color: #96E6B3;
 	border-radius: 5px;
+	margin: 10px 0px;
+	padding: 20px
 }
 
 body { 
@@ -104,7 +108,7 @@ header h1 {
 	niin näyttää tyylikkäämmältä */
 
 	/*Voi muokata täällä myös background-, color-arvoja.*/
-
+  
 }
 
 /*Link in menu item*/
@@ -199,6 +203,8 @@ article {
 	margin tai padding).*/
 	margin: 15px;
 	padding: 10px;
+	background-color: #B1F1BF;
+	border-radius: 5px;
 }
 
 
