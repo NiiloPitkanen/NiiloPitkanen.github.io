@@ -201,7 +201,7 @@ article {
 	niin näyttää tyylikkäämmältä! Teksti, kuva ym. ei saa olla 
 	reunaan asti, vaan reunassa pitää olla marginaali (teknisesti
 	margin tai padding).*/
-	margin: 15px;
+	margin: 30px;
 	padding: 10px;
 	background-color: #B1F1BF;
 	border-radius: 5px;
