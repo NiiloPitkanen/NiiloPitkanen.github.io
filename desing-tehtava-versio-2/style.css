@@ -126,6 +126,8 @@ header h1 {
 	kun kursori on sen päällä. Muuta paremmaksi */
 	color: red; 
 	background: black; 
+	border-radius: 5px;
+	padding: 2px 7px;
 }
 
 /*------- ARTICLE BUTTONS -------------------*/
