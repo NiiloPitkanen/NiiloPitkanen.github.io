@@ -1,0 +1,53 @@
+body {
+    padding-top: 3rem; 
+    margin-bottom: 3rem; 
+    background-color: aquamarine
+  }
+  
+  main {
+    padding: 2rem;   
+  }
+  
+  div.my-3 {
+    background-color: aquamarine;
+    border-radius: 5px;
+  }
+  
+  div.bg-light.me {
+    background-color: lightcyan;
+  }
+  
+  header {
+    background-color: #333; 
+    color: white; 
+  }
+  
+  nav .nav-link {
+    margin: 0 10px; 
+  }
+  
+  nav .btn {
+    margin-left: 10px;
+  }
+  
+  
+  
+  section {
+    background-color: lightcyan; 
+    padding: 2rem 0; 
+    border-radius: 5px;
+  }
+  
+  
+  
+  .accordion-button {
+    color: #333; 
+    background-color: #fff; 
+  }
+  
+  
+  
+  .card {
+    margin-bottom: 20px; 
+  }
+  
