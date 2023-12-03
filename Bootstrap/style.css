@@ -36,16 +36,22 @@ body {
     background-color: lightcyan; 
     padding: 2rem 0; 
     border-radius: 5px;
+    border: 1px solid;
+    margin: 30px;
   }
   
-  
+  h2.argumentti {
+    text-align: center;
+  }
   
   .accordion-button {
     color: #333; 
     background-color: #fff; 
   }
   
-  
+  div.spinner-border {
+    margin-left: 20px;
+  }
   
   .card {
     margin-bottom: 20px; 
