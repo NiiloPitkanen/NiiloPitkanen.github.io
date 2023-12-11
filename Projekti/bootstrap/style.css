@@ -2,4 +2,9 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    background-color: #0F262E;
+}
+
+footer {
+    background-color: #0F262E;
 }
