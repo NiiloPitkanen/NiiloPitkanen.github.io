@@ -34,6 +34,7 @@
   
   main {
     padding: 2rem;
+    background-color: darkblue;
   }
   
   section {
@@ -84,6 +85,16 @@ figure {
     height: 100%;
 }
 
-.keskustelu {
-  color: red;
+.profiilikuva {
+  width: 10%;
+}
+
+.profiilit {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.kayttajaprofiilit {
+  background-color: rgb(0, 121, 202);
 }
