@@ -7,7 +7,6 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
     color: #333;
   }
   
@@ -17,13 +16,25 @@
     padding: 1rem;
   }
   
+  h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0 0 0;
+  }
+
+  h2 {
+    text-align: center;
+    color: #EA2563;
+  }
+
   nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
   }
   
-  nav ul li {
+  nav ul li, .pudotusvalikko ul li {
     padding: 0.5rem;
   }
   
@@ -34,7 +45,13 @@
   
   main {
     padding: 2rem;
-    background-color: darkblue;
+    background-image: url("https://media4.giphy.com/media/SoWrwCZB7kVYA/giphy.gif?cid=ecf05e47yls9nbrifhufvtgq3uv26d754om5r7wsby87xkc9&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-color: #cccccc;
+    display: flex;
+  }
+
+  main a {
+    color: #EA2563;
   }
   
   section {
@@ -59,12 +76,19 @@
   .pelikuvat {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pelikuvat img {
+  box-shadow: 5px 10px #F5FBEF;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .peliteksti {
   width: 100%;
   text-align: center;
+  margin: 5px;
 }
 
 a {
@@ -73,11 +97,11 @@ a {
 }
 
 figure {
-   max-width: 100%;
-   max-height: 100%;
+   max-width: 400px;
+   max-height: auto;
    width: 100%;
-   padding: 10px;
-   margin: 15px;
+   padding: 15px;
+   margin: 12px;
 }
 
 .kuva {
@@ -86,15 +110,189 @@ figure {
 }
 
 .profiilikuva {
-  width: 10%;
+  width: 100%;
+  height: auto;
+}
+
+.profiilit figure {
+  max-width: 94px;
+  min-width: 94px;
+  width: 20%;
+  height: auto;
+  padding: 10px 0px 10px;
 }
 
 .profiilit {
+  display: flex;
+  align-items: center;
+  gap: 20;
   width: 100%;
-  background-color: #fff;
+  background-color: #F5FBEF;
   border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.profiilit h3 {
+  margin: 5px;
+  padding: 5px;
 }
 
 .kayttajaprofiilit {
-  background-color: rgb(0, 121, 202);
+  background-color: #0F262E;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.kayttajaprofiilit h2 {
+  margin: 0px 0px 50px;
+}
+
+.profiiliteksti {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.pelikokoelma {
+  background-color: #0F262E;
+}
+
+.keskustelufoorumi {
+  background-color: #0F262E;
+  margin: 10px 0;
+}
+
+.uutuudet {
+  background-image: linear-gradient(to top, #F5FBEF, #40434E);
+  margin: 10px 0;
+}
+
+.uutuudet ul {
+  padding: 15px;
+}
+
+.uutuudet h2 {
+  color: #070707;
+}
+
+.keskustelu {
+  text-align: center;
+}
+
+.keskustelu a:hover {
+  text-decoration: dashed !important;
+  color: red;
+}
+
+.keskustelufoorumi div {
+  background-color: #40434E;
+  margin: 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.keskustelufoorumi h3 {
+  color: #EA2563;
+}
+
+.keskustelufoorumi p {
+  color: #F5FBEF;
+}
+
+.uutiset {
+  background-color: #0F262E;
+  margin: 0 0 0 10px;
+  border-radius: 5px;
+}
+
+.udari {
+  display: flex;
+  flex-direction: column;
+}
+
+.uutinen {
+  background-color: #40434E;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+  max-width: 380px;
+  min-width: 300px;
+}
+
+.uutinen h3 {
+  margin: 10px;
+  text-align: center;
+  color: #EA2563;
+}
+
+.uutinen p {
+  color: #F5FBEF;
+}
+
+.uutis-otsikko {
+  padding: 10px;
+}
+
+.pudotusvalikko {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  main {
+    flex-direction: column-reverse;
+  }
+  .uutiset {
+    margin: 0 0 30px 0;
+  }
+
+  .udari {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .udari {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pelikuvat, .profiilit {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .pelikuvat figure, .profiilit figure {
+    padding: 0;
+    margin: 0;
+  }
+
+  .pudotusvalikko {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .pudotusvalikko ul {
+    list-style: none;
+  }
+
+  .pudotusvalikko a {
+    color: #fff;
+  }
+
+  .pudotusvalikko a.huomio {
+    color: yellow;
+  }
 }

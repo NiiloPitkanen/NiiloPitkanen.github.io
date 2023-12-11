@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Tervetuloa pelimaailmaan!</h1>
     <header>
         <nav>
           <ul>
@@ -16,47 +17,104 @@
             <li><a href="">Uutiset ja artikkelit</a></li>
           </ul>
         </nav>
+        <div class="pudotusvalikko">
+          <ul>
+            <li><a href="../index.html" class="huomio">Palautussivu</a></li>
+            <li><a href="">Pelikokoelma</a></li>
+            <li><a href="">Käyttäjäprofiilit</a></li>
+            <li><a href="./bootstrap/index.html" class="huomio">Keskustelufoorumi (Bootstrap)</a></li>
+            <li><a href="">Uutiset ja artikkelit</a></li>
+          </ul>
+        </div>
       </header>
     
       <main>
-        <section class="pelikokoelma">
-          <h2>Pelikokoelma</h2>
-          <div class="pelikuvat">
-            <figure>
-              <img class="kuva" src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1698860631" alt="cs">
-              <p class="peliteksti"><a target="_blank" href="https://store.steampowered.com/app/730/CounterStrike_2/">Counter strike 2</a></p>
-            </figure>
-            <figure>
-              <img class="kuva" src="https://portforward.com/help/borderlands-2/default.webp" alt="borderlands">
-              <p class="peliteksti"><a target="_blank" href="https://store.steampowered.com/app/49520/Borderlands_2/">Borderlands 2</a></p>
-            </figure>
-            <figure>
-              <img class="kuva" src="https://gaming-cdn.com/images/products/223/orig/payday-2-pc-game-steam-cover.jpg?v=1696236257" alt="payday">
-              <p class="peliteksti"><a target="_blank" href="https://store.steampowered.com/app/218620/PAYDAY_2/">Payday 2</a></p>
-            </figure>
-          </div>
+        <div>
+          <section class="pelikokoelma">
+            <h2>Pelikokoelma</h2>
+            <div class="pelikuvat">
+              <figure>
+                <img class="kuva" src="https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1698860631" alt="cs">
+                <p class="peliteksti"><a target="_blank" href="https://store.steampowered.com/app/730/CounterStrike_2/">Counter strike 2</a></p>
+              </figure>
+              <figure>
+                <img class="kuva" src="https://portforward.com/help/borderlands-2/default.webp" alt="borderlands">
+                <p class="peliteksti"><a target="_blank" href="https://store.steampowered.com/app/49520/Borderlands_2/">Borderlands 2</a></p>
+              </figure>
+              <figure>
+                <img class="kuva" src="https://gaming-cdn.com/images/products/223/orig/payday-2-pc-game-steam-cover.jpg?v=1696236257" alt="payday">
+                <p class="peliteksti"><a target="_blank" href="https://store.steampowered.com/app/218620/PAYDAY_2/">Payday 2</a></p>
+              </figure>
+            </div>
+            </section>
+      
+          <section class="kayttajaprofiilit">
+            <h2>Käyttäjäprofiilit</h2>
+            <div class="profiilit">
+              <h3>Sofia</h3>
+              <figure>
+                <img class="profiilikuva" src="https://media.istockphoto.com/id/1300845620/fi/vektori/k%C3%A4ytt%C3%A4j%C3%A4kuvake-litte%C3%A4-eristetty-valkoisella-taustalla-k%C3%A4ytt%C3%A4j%C3%A4n-symboli-vektorikuva.jpg?s=612x612&w=0&k=20&c=ehoyIsoLhZEfihPEgUCEjUHlYJWnjmCVp-wik6vZ8eA=" alt="eka profiili">
+              </figure>
+              <div class="profiiliteksti">
+                <p>on pelannut pelejä nuoresta iästä lähtien. Hän on kilpaillut useissa turnauksissa ja voittanut muutamia palkintoja. Erityisesti hän on keskittynyt strategiapeleihin ja FPS-genreen.</p>
+              </div>
+            </div>
+            <div class="profiilit">
+              <h3>Elias</h3>
+              <figure>
+                <img class="profiilikuva" src="https://media.istockphoto.com/id/1300845620/fi/vektori/k%C3%A4ytt%C3%A4j%C3%A4kuvake-litte%C3%A4-eristetty-valkoisella-taustalla-k%C3%A4ytt%C3%A4j%C3%A4n-symboli-vektorikuva.jpg?s=612x612&w=0&k=20&c=ehoyIsoLhZEfihPEgUCEjUHlYJWnjmCVp-wik6vZ8eA=" alt="eka profiili">
+              </figure>
+              <div class="profiiliteksti">
+              <p>nauttii pelien tutkimisesta ja etsii aina uusia seikkailuja. Hän on kerännyt harvinaisia esineitä ja suorittanut monimutkaisia tehtäviä monissa peleissä, joten hänen keräämänsä palkinnot ovat vaikuttavia.</p>
+              </div>  
+            </div>
+            <div class="profiilit">
+              <h3>Lea</h3>
+              <figure>
+                <img class="profiilikuva" src="https://media.istockphoto.com/id/1300845620/fi/vektori/k%C3%A4ytt%C3%A4j%C3%A4kuvake-litte%C3%A4-eristetty-valkoisella-taustalla-k%C3%A4ytt%C3%A4j%C3%A4n-symboli-vektorikuva.jpg?s=612x612&w=0&k=20&c=ehoyIsoLhZEfihPEgUCEjUHlYJWnjmCVp-wik6vZ8eA=" alt="eka profiili">
+              </figure>
+              <div class="profiiliteksti">
+                <p>on innokas pelikehittäjä. Hän on luonut omia pelejä ja on osallistunut erilaisiin peliprojekteihin. Ollilla on syvä ymmärrys pelisuunnittelusta ja hän on myös intohimoinen tarinankertoja.</p>
+              </div>
+            </div>
           </section>
-    
-        <section class="kayttajaprofiilit">
-          <h2>Käyttäjäprofiilit</h2>
-          <div class="profiilit">
-            <figure>
-              <img class="profiilikuva" src="https://media.istockphoto.com/id/1300845620/fi/vektori/k%C3%A4ytt%C3%A4j%C3%A4kuvake-litte%C3%A4-eristetty-valkoisella-taustalla-k%C3%A4ytt%C3%A4j%C3%A4n-symboli-vektorikuva.jpg?s=612x612&w=0&k=20&c=ehoyIsoLhZEfihPEgUCEjUHlYJWnjmCVp-wik6vZ8eA=" alt="eka profiili">
-            </figure>
-            <p class="profiiliteksti">asokaslasfksajkj</p>
+          <section class="keskustelufoorumi">
+            <h2>Keskustelufoorumi</h2>
+            <p class="keskustelu"><a href="./bootstrap/index.html">Tästä pääsee keskutelufoorumille, mikä on tehty bootstrapilla.</a></p>
+            <div>
+              <h3>Speedrun keskustelu</h3>
+              <p>Tässä keskustelussa jaetaan vinkkejä speedrunien suorittamiseen eri peleissä.</p>
+            </div>
+            <div>
+              <h3>Yhteisön modit</h3>
+              <p>Tässä osiossa esitellään yhteisön tekemiä modifikaatioita peleihin ja niiden käyttökokemuksiin.</p>
+            </div>
+          </section>
+          <section class="uutuudet">
+            <div>
+              <h2>Uudet tekniikat</h2>
+              <ul>
+                <li><p>Pseudo luokkia</p></li>
+                <li><p>Background gradient</p></li>
+                <li><p>Background img</p></li>
+                <li><p>Box-shadow</p></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="uutiset">
+          <h2 class="uutis-otsikko">Uusinta uutta ja mitä kaikkea pelimaailmassa tapahtuu. Täällä uutisoidaan kaikesta.</h2>
+           <div class="udari">
+            <div class="uutinen">
+              <h3>Uusi laajennus Fortniteen: "Nexus Awakening"</h3>
+              <p>Epic Games julkaisi uuden laajennuksen Fortnite-peliin. "Nexus Awakening" esittelee pelaajille uuden alueen, jännittäviä haasteita ja ennennäkemättömiä skinejä, mikä on saanut pelaajayhteisön odottamaan innolla pelin uutta vaihetta.</p>
+            </div>
+            <div class="uutinen">
+              <h3>PlayStation Plus -jäsenet saavat ilmaisen pelin: "Rift Quest"</h3>
+              <p>Sony on ilmoittanut PlayStation Plus -jäsenilleen tarjoavansa ilmaisen pelin kuukauden ajan. "Rift Quest" on seikkailupeli, joka on saanut kiitosta grafiikoistaan ja koukuttavasta pelattavuudestaan.</p>
+            </div>
           </div>
-        </section>
-    
-        <section class="keskustelufoorumi">
-          <h2>Keskustelufoorumi</h2>
-
-          <p class="keskustelu"><a href="./bootstrap/index.html">Tästä pääsee keskutelufoorumille, mikä on tehty bootstrapilla.</a></p>
-        </section>
-    
-        <section class="uutiset">
-          <h2>Uutiset ja artikkelit</h2>
-          
-        </section>
+        </div>        
       </main>
     
       <footer>
