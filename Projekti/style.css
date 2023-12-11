@@ -51,7 +51,7 @@
   }
 
   main a {
-    color: #EA2563;
+    color: #F5FBEF;
   }
   
   section {
@@ -186,6 +186,10 @@ figure {
 
 .keskustelu a:hover {
   text-decoration: dashed;
+  color: red;
+}
+
+.peliteksti a:hover {
   color: red;
 }
 
