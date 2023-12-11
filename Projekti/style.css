@@ -11,14 +11,14 @@
   }
   
   header {
-    background-color: #333;
+    background-color: #0F262E;
     color: #fff;
     padding: 1rem;
   }
   
   h1 {
     text-align: center;
-    background-color: #333;
+    background-color: #0F262E;
     color: #fff;
     padding: 15px 0 0 0;
   }
@@ -65,7 +65,7 @@
   footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #0F262E;
     color: #fff;
   }
 
@@ -173,6 +173,7 @@ figure {
 
 .uutuudet ul {
   padding: 15px;
+  color: #070707;
 }
 
 .uutuudet h2 {
@@ -184,7 +185,7 @@ figure {
 }
 
 .keskustelu a:hover {
-  text-decoration: dashed !important;
+  text-decoration: dashed;
   color: red;
 }
 
