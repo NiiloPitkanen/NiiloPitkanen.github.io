@@ -1,14 +1,51 @@
-header {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: #0F262E;
+.px-3.py-2.text-bg-dark {
+    background-color: #0F262E !important;
+    padding: 10px !important;
 }
 
 header h1 {
     text-align: center;
 }
 
-footer {
+body {
+    background-image: url("https://media4.giphy.com/media/SoWrwCZB7kVYA/giphy.gif?cid=ecf05e47yls9nbrifhufvtgq3uv26d754om5r7wsby87xkc9&ep=v1_gifs_search&rid=giphy.gif&ct=g") !important; 
+}
+
+h1, h2, h3{
+    color: #EA2563;
+}
+
+p, li {
+    color: #F5FBEF;
+}
+
+label {
+    color: #F5FBEF;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Teko', sans-serif;
+    font-size: 250%;
+  }
+
+h3 {
+    font-size: 200%;
+}
+
+  p, a, li, ul {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.container.mt-5 {
     background-color: #0F262E;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.bg-light {
+    background-color: #0F262E !important;
+}
+
+.text-center.p-3 {
+    color: #F5FBEF;
 }
