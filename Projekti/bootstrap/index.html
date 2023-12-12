@@ -1,67 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keskustelufoorumi</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Bootstrap sivu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <title>Keskustelufoorumi</title>
 </head>
 <body>
-  <header class="bg-dark text-light text-center py-4">
-    <h1>Keskustelufoorumi</h1>
-    <a href="/Projekti/index.html">Takaisin</a>
-  </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pelimaa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Palautussivu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pelikokoelma</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Käyttäjäprofiilit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Keskustelufoorumi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Uudet tekniikat</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-  <main>
-    <section class="container mt-4">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="card mb-4">
-            <div class="card-header">
-              Pelikeskustelu
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Tervetuloa Keskustelufoorumiin!</h1>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Parhaat pelit vuonna 2023?</h5>
-              <p class="card-text">Mitkä pelit ovat olleet suosikkejasi tänä vuonna? Jaa mielipiteesi!</p>
-              <a href="#" class="btn btn-primary">Osallistu keskusteluun</a>
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-header">
-              Uutiset
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Uusi pelijulkistus odotettu</h5>
-              <p class="card-text">Tuleeko uusi julkistus pian? Mitä odotat eniten?</p>
-              <a href="#" class="btn btn-primary">Lue lisää</a>
-            </div>
-          </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header">
-              Säännöt
+        <div class="row my-4">
+            <div class="col-4">
+                
             </div>
-            <div class="card-body">
-              <p class="card-text">1. Kunnioita muita keskustelijoita.</p>
-              <p class="card-text">2. Vältä kirosanojen käyttöä.</p>
-              <p class="card-text">3. Pidä keskustelu aiheessa.</p>
-              <a href="#" class="btn btn-primary">Lue lisää</a>
+            <div class="col-4">
+                
             </div>
-          </div>
+            <div class="col-4">
+                
+            </div>
         </div>
-      </div>
-    </section>
-  </main>
 
-  <footer class="bg-dark text-light text-center py-3 mt-4">
-    &copy; 2023 Niilo Pitkänen
-  </footer>
+        <div class="row my-4">
+            <div class="col-6">
+                <h2>Speedrun keskustelu</h2>
+                <p>Jaa vinkkejä ja oppaita speedrunien suorittamiseen.</p>
+            </div>
+            <div class="col-6">
+                <h2>Yhteisön modit</h2>
+                <p>Keskustele ja tutustu yhteisön luomiin modifikaatioihin.</p>
+            </div>
+        </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="row my-4">
+            <div class="col-12">
+                <h2>Uutiset ja Päivitykset</h2>
+                <p>Pysy ajan tasalla pelimaailman uusimmista uutisista ja päivityksistä.</p>
+            </div>
+        </div>
+
+        <div class="row my-4">
+            <div class="col-3">
+                <button type="button" class="btn btn-secondary btn-block">Liity Keskusteluun</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success btn-block">Uusi Viestiketju</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-danger btn-block">Hälytykset</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-info btn-block">Profiiliasetukset</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; 2023 Niilo Pitkänen
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

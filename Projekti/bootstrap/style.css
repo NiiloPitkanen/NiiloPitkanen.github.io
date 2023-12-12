@@ -5,6 +5,10 @@ header {
     background-color: #0F262E;
 }
 
+header h1 {
+    text-align: center;
+}
+
 footer {
     background-color: #0F262E;
 }
